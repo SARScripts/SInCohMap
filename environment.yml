@@ -1,4 +1,4 @@
-name: openeo_platform
+name: sincohmap
 channels:
   - conda-forge
   - pyviz
