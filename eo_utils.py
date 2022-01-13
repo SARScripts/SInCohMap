@@ -3,6 +3,8 @@ from time import time
 import rasterio
 import numpy as np
 import openeo
+from openeo.rest.datacube import PGNode, THIS
+from openeo.processes import *
 import xarray as xr
 import rioxarray
 from ipyleaflet import (
@@ -32,7 +34,6 @@ from bqplot import Lines, Figure, LinearScale, DateScale, Axis, Scatter
 import bqplot.pyplot as bqplt
 from datetime import datetime
 import json
-from openeo.processes import if_, neq,array_element
 import hvplot.xarray
 import warnings
 warnings.filterwarnings("ignore")
